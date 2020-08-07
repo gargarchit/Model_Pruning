@@ -1,7 +1,6 @@
 # Model_Pruning
 
-Neural Networks have 100s of layers with some redundancy or duplication, So here we are using model pruning. Pruning helps us create Neural Network smaller and faster in training.
-
+Neural Networks have 100s of layers with some redundancy or duplication. Generally, Training of large Neural Networks requires high computation power, more training time and it's too bulky and can cause problem while deploying. So, here we are using model pruning. Pruning helps us create Neural Network smaller and faster in training. This methods helps reduce the number of connections based on the Hessian matrix of the loss function.
 
 ## Impact on Size
 
@@ -23,3 +22,5 @@ Generally, a small drop of accuracy may occur due to sparsity of model, Also the
 1. [Learning both Weights and Connections for Efficient Neural Networks](https://papers.nips.cc/paper/5784-learning-both-weights-and-connections-for-efficient-neural-network.pdf)
 2. [Learning to Prune Filters in Convolutional Neural Networks](https://arxiv.org/pdf/1801.07365.pdf)
 3. Tensorflow model optimization.
+
+Credit: Images are taken from the reference mentioned above.
