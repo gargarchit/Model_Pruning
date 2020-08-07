@@ -21,6 +21,6 @@ Generally, a small drop of accuracy may occur due to sparsity of model, Also the
 # Reference
 1. [Learning both Weights and Connections for Efficient Neural Networks](https://papers.nips.cc/paper/5784-learning-both-weights-and-connections-for-efficient-neural-network.pdf)
 2. [Learning to Prune Filters in Convolutional Neural Networks](https://arxiv.org/pdf/1801.07365.pdf)
-3. Tensorflow model optimization.
+3. Overview about inbuilt function used in model pruning code : [Link](https://www.tensorflow.org/model_optimization/api_docs/python/tfmot/sparsity/keras)
 
 Credit: Images are taken from the reference mentioned above.
